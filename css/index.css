@@ -1,0 +1,81 @@
+.icons a{
+    padding: 0px 10px 0px 10px;
+}
+.topheader{
+    background-color: rgb(250, 235, 235);
+}
+.pnumber i:hover{
+    font-size: 14px;
+    color: blue;
+}
+.icons a:hover{
+   font-size: 14px;
+   color: black;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  :root{
+    --primary: hsl(348, 97%, 63%,0.55);
+    --secondary: hsl(230, 96%, 62%,0.55); 
+    --last: hsl(348, 97%, 63%,0.55);  
+}
+  .bgimg {
+    background-image: linear-gradient(135deg, var(--primary), var(--secondary), var(--last)),
+                    url('../images/nueva.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  /* .topleft {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+  } */
+  /* .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  } */
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+.navbar a{
+      font-size: 20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      padding: 0px 20px 0px 20px;
+      color: aliceblue;
+}
+  .navbar a:hover{
+  font-size:18px;
+  color: black;
+}
+.person {
+  border: 5px solid transparent;
+  margin-bottom: 25px;
+  width: 50%;
+  height: 50%;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #ffffff;
+}
+.services{
+  background-color: #f1ebd6;
+}
