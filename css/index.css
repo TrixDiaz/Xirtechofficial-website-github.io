@@ -60,11 +60,11 @@ body, html {
       font-size: 20px;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       padding: 0px 20px 0px 20px;
-      color: aliceblue;
+      color: rgb(0, 0, 0);
 }
   .navbar a:hover{
   font-size:18px;
-  color: black;
+  color: rgb(31, 216, 207);
 }
 .person {
   border: 5px solid transparent;
